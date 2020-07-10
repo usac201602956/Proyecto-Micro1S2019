@@ -412,7 +412,7 @@ void UARTInt(void){
 }
 //***********************************************MAIN*****************************************************//
 int main(void){
-    SysCtlClockSet(SYSCTL_USE_PLL|SYSCTL_OSC_MAIN|SYSCTL_XTAL_16MHZ|SYSCTL_SYSDIV_5); //Reloj de Tiva C a 40MHz
+    SysCtlClockSet(SYSCTL_USE_PLL|SYSCTL_OSC_MAIN|SYSCTL_XTAL_16MHZ|SYSCTL_SYSDIV_5); //Reloj de Tiva C a 40MHz.
     GPIO();
     ADC();
     PWM();
