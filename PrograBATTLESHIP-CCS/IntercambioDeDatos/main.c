@@ -3,7 +3,7 @@
 #include <stdbool.h>
 //*******************************************LIBRERIAS TIVA C********************************************//
 #include "driverlib/sysctl.h"
-#include "driverlib/gpio.h"       //Periféricos de entrada y salida
+#include "driverlib/gpio.h"       //Periféricos de entrada y salida.
 #include "inc/hw_gpio.h"          //Para desbloquear pines.
 #include "inc/hw_memmap.h"        //Macros defining the memory map of the device.
 #include "inc/hw_types.h"         //Common types and macros.
