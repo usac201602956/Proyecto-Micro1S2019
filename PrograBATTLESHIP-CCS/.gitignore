@@ -2,4 +2,7 @@
 /.jxbrowser-data/
 /dvt/
 /RemoteSystemsTempFiles/
-/Debug/
+*/Debug/
+*/.launches/
+*/.settings/
+*/targetConfigs/
